@@ -1,0 +1,92 @@
+body{
+    /* background-color: rgba(0, 0, 0, 0.9); */
+}
+#minhaDiv {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    
+    
+    /* background-color: #f14646; */   
+}
+
+
+h2.title{
+background-color: #069;
+width: 100%;
+padding: 20px;
+text-align: center;
+color: white;
+}
+
+table.tab{
+    text-align: center;
+}
+.carrinho-container{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    /* background-color: #f14646; */
+
+}
+.produto{
+    width: 100%;
+    padding: 0 0px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.produto img{
+    max-width: 100%;
+    text-align: center;
+   
+}
+.produto a{
+    display: block;
+    width: 70%;
+    margin-left: 0px;
+    padding: 12px;
+    color: white;
+    /* background-color:#181816; */
+    background-color: #069;
+    text-align: center;
+    text-decoration: none;
+}
+.produto a:hover{
+    background-color:#747173;
+}
+.car{
+    border: 0;
+}
+.conteudo{
+    color: black;
+    border: 1px;
+    background-color: #aca9a9;
+
+}
+.cadast{
+    background-color: #dad5d5;
+}
+.conteudo .hover{
+    border: 1px;
+    background-color:#747173;
+    border-bottom: none;
+}
+.table-hover .car:not(:first-child) {
+    border: 1px;
+    border-bottom: 1px solid #D5D5D5;
+    border-bottom: none;
+}
+.table-hover tr:first-child {
+    border: 1px;
+    border-bottom: none;
+}
+.table-hover tr:nth-child(even) {
+     /* background-color: #fccccc; */
+  }
+.table-hover tr:nth-child(odd) {
+    /* background-color: #999; */
+  }
